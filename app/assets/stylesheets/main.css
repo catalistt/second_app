@@ -2545,7 +2545,7 @@ input, select, textarea {
 				position: absolute;
 				top: 50%;
 				margin: -1.5em 0 0 0;
-				background: <%= image_tag 'pic04.jpg' %> no-repeat center center;
+				background-image: url("pic04.jpg");
 			}
 
 			.carousel .forward:hover:before, .carousel .backward:hover:before {
